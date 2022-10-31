@@ -1,0 +1,122 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+
+}
+
+#title {
+    background-image: linear-gradient(to bottom right, rgb(193, 152, 160), rgb(36, 24, 26));
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    padding: 10px;
+
+}
+
+.shadow {
+    text-shadow: 2px 2px 2px #1f1c1c;
+}
+
+.big-heading {
+    font-size: 3.5rem;
+    color: white;
+    text-align: left;
+    padding: 2rem;
+
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* sections */
+
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+/* navbar */
+.navbar {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+
+}
+
+.nav-item {
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+.download-btn {
+    margin: 5% 3% 5% 0%;
+}
+
+/* Title Image */
+.title-image {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    right: 10%;
+    padding: 2rem;
+
+}
+
+#learn-photography {
+    padding: 20px;
+
+}
+
+.video-content {
+
+    margin: auto;
+}
+
+.ph-img {
+    height: 120px;
+    width: 200px;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.carousel-item {
+    padding: 7% 10%;
+}
+
+/* Footer section */
+.footer {
+    font-size: medium;
+    padding: 5% 12%;
+    text-align: center;
+}
+
+
+@media (max-width:1025px) {
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 20rem;
+    }
+}
